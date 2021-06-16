@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: northwind
+    tables:
+        - name: customers
+        - name: order_details
+
+models:
+  - name: cls_customers
+    description: Cleansed customer data
+    columns:
+      - name: CustomerID
+        tests:
+          - unique
+          - not_null
+  - name: cls_order_details
+    
