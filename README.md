@@ -1,6 +1,12 @@
 Willkommen zum Praxisteils des Workshops!
 
 
+### Start
+Führe einmal folgende Commands aus:  
+```dbt --version```    
+```dbt deps```  (installiert Erweiterungen aus "packages.yml")
+
+
 ### Aufgaben: 
 1) Erstelle das Modell und kontrolliere es im SQL-Client  
    Run: ```dbt run```
@@ -22,7 +28,5 @@ Umsätze nach Ländern aufsummiert. Dazu muss in 'dbt_project.yml'
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](http://slack.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
+- dbt utils: https://github.com/fishtown-analytics/dbt-utils
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
