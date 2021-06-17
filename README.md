@@ -1,6 +1,10 @@
 Willkommen zum Praxisteils des Workshops!
 
 
+### Requirements
+- Verbindung auf Datenbank mit SQL-Client herstellen.
+- Im Ordner /home/[user]/.dbt das Profil konfigurieren (siehe Email)
+
 ### Start
 Führe einmal folgende Commands aus:  
 ```dbt --version```    
