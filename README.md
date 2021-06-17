@@ -4,7 +4,7 @@ Willkommen zum Praxisteils des Workshops!
 ### Start
 Führe einmal folgende Commands aus:  
 ```dbt --version```    
-```dbt deps```  (installiert Erweiterungen aus "packages.yml")
+```dbt deps```  (installiert ggf. Erweiterungen aus "packages.yml")
 
 
 ### Aufgaben: 
